@@ -1,0 +1,160 @@
+@import url("../fonts/roboto.css");
+
+body{
+  font-family: "Roboto";
+  color: #fff;
+}
+.flex{
+  display: flex;
+}
+header{
+  padding: 48px 0 44px;
+  background-color: #00020e;
+  background-image: radial-gradient(circle 1174px at 48.56% -367.98%, #0a3948 0%, #000410 100%);
+}
+.header .logotype{
+  height: 55px;
+  width: auto;
+  margin-left: -10px;
+}
+.header .logandphone{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+}
+.header .phones{
+  color: #404f5a;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 10.43px;
+  padding-top: 10px;
+}
+.header .phones img{
+  width: 17px;
+}
+.header .phones a{
+  color: #404f5a;
+}
+.header .flexblock{
+  display: flex;
+  justify-content: space-between;
+}
+.header .sendcall{
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 15.66px;
+  width: 153px;
+  height: 54px;
+  border-radius: 5px;
+  border:none;
+  background-color: #d2c1af;
+  background-image: -webkit-linear-gradient(bottom, rgba(188, 129, 25, 0.57) 0%, rgba(253, 210, 149, 0.57) 100%);
+  background-image: -o-linear-gradient(bottom, rgba(188, 129, 25, 0.57) 0%, rgba(253, 210, 149, 0.57) 100%);
+  background-image: linear-gradient(to top, rgba(188, 129, 25, 0.57) 0%, rgba(253, 210, 149, 0.57) 100%);
+}
+.header .basket{
+  height: 55px;
+  cursor: pointer;
+}
+
+.menu-list{
+  /* Style for "Линия Меню" */
+  width: 100%;
+  padding: 24px 0;
+  background-color: #00020e;
+  background-image: linear-gradient(to top, #000a19 0%, #011321 100%);
+  margin-top: 49px;
+}
+.menu-list a{
+  color: #d2c1af;
+}
+/*
+.menu-list li::after{
+  content:"";
+  background: url("../img/line.png") no-repeat center center;
+  display: block;
+  height: 20px;
+  width: 20px;
+}
+*/
+/*
+.menu-list li{
+  border-right: 1px solid #d2c1af;
+}
+*/
+.menu-list img{
+  height: 45px;
+}
+
+.product{
+  margin-top: 76px;
+}
+.product .product-icon{
+  display: block;
+  height: 85px;
+  width: 85px;
+}
+.product h2{
+  font-size: 29px;
+  font-weight: bold;
+  line-height: 11px;
+  text-transform: uppercase;
+  margin-bottom: 86px;
+}
+.product span{
+  color: #d2c1af;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 11px;
+}
+.product h3{
+  font-size: 18px;
+  margin-top: 13px;
+  margin-bottom: 26px;
+}
+.product h4{
+  font-size: 18px;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 100px;
+}
+.product .buy{
+  width: 163px;
+  height: 54px;
+  border-radius: 5px;
+  background-color: #d2c1af;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  margin-right: 20px;
+  background-image: -webkit-linear-gradient(bottom, rgba(188, 129, 25, 0.57) 0%, rgba(253, 210, 149, 0.57) 100%);
+  background-image: -o-linear-gradient(bottom, rgba(188, 129, 25, 0.57) 0%, rgba(253, 210, 149, 0.57) 100%);
+  background-image: linear-gradient(to top, rgba(188, 129, 25, 0.57) 0%, rgba(253, 210, 149, 0.57) 100%);
+}
+.product .buy-click{
+  color: #404f5a;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 62.61px;
+  text-decoration: underline;
+}
+.product .preferences{
+  margin-top: 50px;
+}
+.product .preferences figcaption{
+  color: #efd9b8;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12.72px;
+  text-align: center;
+}
+.product .preferences img{
+  display: block;
+  margin: 0 auto;
+  height: 30px;
+  width: auto;
+  margin-bottom: 7px;
+}

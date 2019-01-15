@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-3.0.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6 logandphone">
+              <img src="img/logo2.png" class="logotype img" alt="">
+              <div class="phones">
+                <span>интернет бутик элитных копий часов</span><br><br>
+                <div class="flexblock">
+                  <a href="" class="floatleft"><img src="img/phoneicon.png" alt="">+0000000000</a>
+                  <a href="" class="floaright"><img src="img/phoneicon.png" alt="">+0000000000</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-md-4 offset-md-1 flexblock">
+            <button class="btn sendcall">Заказать<br>звонок</button>
+            <img src="img/basket.png" class="basket" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-list">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <nav class="nav justify-content-between align-content-center">
+              <li><a class="nav-item nav-link" href="#">О нас</a></li>
+              <img src="img/line.png" alt="">
+              <li><a class="nav-item nav-link" href="#">Новинки</a></li>
+              <img src="img/line.png" alt="">
+              <li><a class="nav-item nav-link" href="#">Мужские</a></li>
+              <img src="img/line.png" alt="">
+              <li><a class="nav-item nav-link" href="#">Женские</a></li>
+              <img src="img/line.png" alt="">
+              <li><a class="nav-item nav-link" href="#">Аксессуары</a></li>
+              <img src="img/line.png" alt="">
+              <li><a class="nav-item nav-link" href="#">Гарантия</a></li>
+              <img src="img/line.png" alt="">
+              <li><a class="nav-item nav-link" href="#">Доставка и оплата</a></li>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="product">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+              <img src="img/product_icon.png" class="product-icon" alt=""><br>
+              <img src="img/product_icon.png" class="product-icon" alt=""><br>
+              <img src="img/product_icon.png" class="product-icon" alt=""><br>
+              <img src="img/product_icon.png" class="product-icon" alt=""><br>
+          </div>
+          <div class="col-md-6">
+            <h2>NAME</h2>
+            <span>Артикул</span>
+            <h3>Элитеые мужские часы</h3>
+            <h4>Элитеые мужские часы</h4>
+            <div class="buy-block flex justify-content-end">
+              <button class="btn buy">Купить</button><a href="" class="buy-click">Купить в 1 клик</a>
+            </div>
+            <div class="preferences flex justify-content-start">
+              <figure>
+                <img src="img/france.png" alt="">
+                <figcaption>Сделано во Франции</figcaption>
+              </figure>
+              <figure>
+                <img src="img/switz.png" alt="">
+                <figcaption>Швейцарский механизм</figcaption>
+              </figure>
+              <figure>
+                <img src="img/11.png" alt="">
+                <figcaption>98% соответствие оригиналу</figcaption>
+              </figure>
+              <figure>
+                <img src="img/garanty.png" alt="">
+                <figcaption>Гарантия до 2 лет</figcaption>
+              </figure>
+              <figure>
+                <img src="img/dostavka.png" alt="">
+                <figcaption>Бесплатная доставка<br>до квартиры</figcaption>
+              </figure>
+              <figure>
+                <img src="img/pay.png" alt="">
+                <figcaption>Оплата после  примерки</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+</body>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $(document).on("click",".basket",function () {
+      alert("Открывается корзина");
+    });
+  });
+</script>
+</html>
