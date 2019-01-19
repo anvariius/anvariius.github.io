@@ -113,59 +113,54 @@
       <img src="img/close.png" class="closewindow" alt="">
       <h4>Бесплатная доставка по всей территории Латвии до дверей вашего дома</h4>
       <div class="wrap">
-        <div class="flex justify-content-between align-items-end">
-          <h3>Моя корзина</h3>
-          <img src="img/visaa.png" class="visaa" alt="">
+        <div class="row">
+          <div class="col-md-6 flex align-items-end">
+            <h3>Моя корзина</h3>
+          </div>
+          <div class="col-md-6 flex align-items-end justify-content-md-end justify-content-xs-start">
+            <img src="img/visaa.png" class="visaa" alt="">
+          </div>
         </div>
       </div>
       <div class="wline"></div>
       <div class="wrap">
         <div class="row sline">
-          <div class="col-md-6">
+          <div class="col-lg-6 col-4">
             <p style="text-align: left;">Название</p>
           </div>
-          <div class="col-md-2">
+          <div class="col-2 col-lg-2">
             <p>Цена</p>
           </div>
-          <div class="col-md-2">
+          <div class="col-4 col-lg-2">
             <p>Кол-во</p>
           </div>
-          <div class="col-md-2">
-            <p>СУММА</p>
+          <div class="col-2 col-lg-2">
+            <p class="summargin">СУММА</p>
           </div>
         </div>
         <div class="row sline">
-          <div class="col-md-6">
+          <div class="col-lg-6 col-4">
             <div class="tovar flex align-items-center">
               <img src="img/iconsm.png" alt="">
               <p style="text-align: left;">Название</p>
             </div>
           </div>
-          <div class="col-md-2 flex align-items-center justify-content-center">
+          <div class="col-2 col-lg-2 flex align-items-center justify-content-center">
             <p>25$</p>
           </div>
-          <div class="col-md-2 flex align-items-center justify-content-center">
-            <p><img src="img/chose.png" alt=""><img src="img/delete.png" alt=""></p>
+          <div class="col-4 col-lg-2 flex align-items-center justify-content-center">
+            <p>
+              <select name="" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              <img src="img/delete.png" class="del_tovar" alt="">
+            </p>
           </div>
-          <div class="col-md-2 flex align-items-center justify-content-center">
-            <p>25$</p>
-          </div>
-        </div>
-
-        <div class="row sline">
-          <div class="col-md-6">
-            <div class="tovar flex align-items-center">
-              <img src="img/iconsm.png" alt="">
-              <p style="text-align: left;">Название</p>
-            </div>
-          </div>
-          <div class="col-md-2 flex align-items-center justify-content-center">
-            <p>25$</p>
-          </div>
-          <div class="col-md-2 flex align-items-center justify-content-center">
-            <p><img src="img/chose.png" alt=""><img src="img/delete.png" alt=""></p>
-          </div>
-          <div class="col-md-2 flex align-items-center justify-content-center">
+          <div class="col-2 col-lg-2 flex align-items-center justify-content-center">
             <p>25$</p>
           </div>
         </div>
@@ -187,7 +182,9 @@
         <div class="row">
           <div class="col-md-6 flex justify-content-around align-items-center">
             <p>Расширенная гарантия - 3 года</p>
-            <img src="img/checkbox.png" alt="">
+            <img src="img/checked.png" class="checkedd" alt="">
+            <img src="img/checknone.png" class="noncheckedd" alt="">
+            <img src="img/info.png" alt="">
             <p>10.50$</p>
           </div>
         </div>
@@ -200,10 +197,10 @@
       <div class="wline"></div>
       <div class="wrap">
         <div class="row flex justify-content-around">
-          <img src="img/iconlg.png" alt="">
-          <img src="img/iconlg.png" alt="">
-          <img src="img/iconlg.png" alt="">
-          <img src="img/iconlg.png" alt="">
+          <img src="img/iconxl.png" alt="">
+          <img src="img/iconxl.png" alt="">
+          <img src="img/iconxl.png" alt="">
+          <img src="img/iconxl.png" alt="">
         </div>
       </div>
     -->
@@ -212,22 +209,32 @@
   </div>
   <header>
     <div class="header">
-      <div class="container">
+      <div class="container mustconti">
         <div class="row">
 
-          <div class="col-md-6 logandphone">
+          <div class="col-xl-2 col-md-3 col-sm-4 logandphone flex justify-content-between align-items-center">
               <img src="img/logo2.png" class="logotype img" alt="">
-              <div class="phones">
-                <span>интернет бутик элитных копий часов</span><br><br>
-                <div class="flexblock">
-                  <a href="" class="floatleft"><img src="img/phoneicon.png" alt="">+0000000000</a>
-                  <a href="" class="floaright"><img src="img/phoneicon.png" alt="">+0000000000</a>
-                </div>
-              </div>
+              <img src="img/menu.png" class="openmenu" alt="">
+              <img src="img/close1.png" class="closemenu" alt="">
           </div>
-          <div class="col-md-4 offset-md-1 flexblock">
+          <nav class="mobile-menu">
+            <li><a class="nav-item nav-link" href="#">О нас</a></li>
+            <li><a class="nav-item nav-link" href="#">Новинки</a></li>
+            <li><a class="nav-item nav-link" href="#">Мужские</a></li>
+            <li><a class="nav-item nav-link" href="#">Женские</a></li>
+            <li><a class="nav-item nav-link" href="#">Аксессуары</a></li>
+            <li><a class="nav-item nav-link garanty_button" href="#">Гарантия</a></li>
+            <li><a class="nav-item nav-link delivery_button" href="#">Доставка и оплата</a></li>
+          </nav>
+          <div class="phones col-xl-4 col-md-5 col-sm-8">
+            <span>интернет бутик элитных копий часов<br><br>
+              <a href=""><img src="img/phoneicon.png" alt="">+00000000000</a><a href="" class="ml40"><img src="img/phoneicon.png" alt="">+00000000000</a>
+            </span>
+          </div>
+
+          <div class="col-xl-4 col-md-2 offset-xl-1 flexblock">
             <button class="btn sendcall">Заказать<br>звонок</button>
-            <img src="img/basket.png" class="basket" alt="">
+            <img src="img/basket.png" class="basket">
           </div>
 
         </div>
@@ -235,9 +242,9 @@
     </div>
 
     <div class="menu-list">
-      <div class="container">
+      <div class="container mustcont">
         <div class="row">
-          <div class="col-md-10 offset-md-1">
+          <div class="col-xl-10 offset-xl-1 col-sm-12">
             <nav class="nav justify-content-between align-content-center">
               <li><a class="nav-item nav-link" href="#">О нас</a></li>
               <img src="img/line.png" alt="">
@@ -259,52 +266,52 @@
     </div>
 
     <div class="product">
-      <div class="container">
+      <div class="container mustconti">
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-xl-5 col-md-6">
               <img src="img/product_icon.png" class="product-icon" alt=""><br>
               <img src="img/product_icon.png" class="product-icon" alt=""><br>
               <img src="img/product_icon.png" class="product-icon" alt=""><br>
               <img src="img/product_icon.png" class="product-icon" alt=""><br>
           </div>
-          <div class="col-md-6">
+          <div class="col-xl-6 col-md-6">
             <h2>NAME</h2>
             <span>Артикул</span>
             <h3>Элитеые мужские часы</h3>
             <h4>Элитеые мужские часы</h4>
-            <div class="buy-block flex justify-content-end">
+            <div class="buy-block flex justify-content-md-end justify-content-around">
               <button class="btn buy">Купить</button><a href="" class="buy-click">Купить в 1 клик</a>
             </div>
-            <div class="preferences flex justify-content-start">
-              <figure>
+            <div class="row preferences">
+              <div class="figure col-xl-2 col-4">
                 <img src="img/france.png" alt="">
                 <figcaption>Сделано во Франции</figcaption>
-              </figure>
-              <figure>
+              </div>
+              <div class="figure col-xl-2 col-4">
                 <img src="img/switz.png" alt="">
                 <figcaption>Швейцарский механизм</figcaption>
-              </figure>
-              <figure>
+              </div>
+              <div class="figure col-xl-2 col-4">
                 <img src="img/11.png" alt="">
                 <figcaption>98% соответствие оригиналу</figcaption>
-              </figure>
-              <figure>
+              </div>
+              <div class="figure col-xl-2 col-4">
                 <img src="img/garanty.png" alt="">
                 <figcaption>Гарантия до 2 лет</figcaption>
-              </figure>
-              <figure>
+              </div>
+              <div class="figure col-xl-2 col-4">
                 <img src="img/dostavka.png" alt="">
                 <figcaption>Бесплатная доставка<br>до квартиры</figcaption>
-              </figure>
-              <figure>
+              </div>
+              <div class="figure col-xl-2 col-4">
                 <img src="img/pay.png" alt="">
                 <figcaption>Оплата после  примерки</figcaption>
-              </figure>
+              </div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-10 offset-md-1 white-block flex justify-content-center">
+          <div class="col-10 offset-1 white-block flex justify-content-center">
             <div class="col-md-5">
               <p>Выберите модель часов</p>
             </div>
@@ -317,19 +324,19 @@
           </div>
         </div>
         <div class="row feedback">
-          <div class="offset-md-1 col-md-4">
+          <div class="offset-xl-1 col-xl-4 col-md-6 offset-md-3">
             <nav class="nav justify-content-between align-content-center">
               <a class="nav-item nav-link delivery_button">ОПЛАТА</a>
               <a class="nav-item nav-link garanty_button">ГАРАНТИЯ</a>
-              <a class="nav-item nav-link delivery_button" >ДОСТАВКА</a>
+              <a class="nav-item nav-link delivery_button">ДОСТАВКА</a>
               <a class="nav-item nav-link">АКСЕССУАРЫ</a>
             </nav>
             <p>Принципиальное отличие наших часов от дешевых копий</p>
           </div>
-          <div class="col-md-6 justify-content-between flex">
+          <div class="col-xl-6 col-md-8 offset-md-2 justify-content-between flex">
             <a class="consult">Консультация по телефону</a>
             <button class="btn">Оформить<br>заказ</button>
-            <img src="img/basket.png" class="basket" alt="">
+            <img src="img/basket.png" class="basket d-none d-sm-block" alt="">
           </div>
         </div>
       </div>
@@ -354,19 +361,19 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 flex justify-content-start">
+        <div class="col-xl-6 col-md-10 flex justify-content-start m-bottom">
           <img src="img/one.png" alt="" class="mt30">
           <p>Мы прошли не простой путь становления и развития, но радовало то, что конкуренции у нас в принципе не было, как нет её и сейчас. Так как наши часы – уникальные изделия, которые изготавливается мастерами на лучших часовых заводах наших партнёров в Европе. И если, эти часы были приобретёны в PRESIDENT-WATCH, Вы можете быть полностью уверенны в её надёжности и очень высоком качестве! Только мы даём гарантию на свой товар ЧЕСТНЫХ - 2 года , с полным его обслуживанием, ибо, имеем собственную часовую мастерскую.</p>
         </div>
-        <div class="offset-md-6 col-md-6 flex justify-content-end">
+        <div class="offset-xl-6 col-xl-6 col-md-10 offset-md-2 flex justify-content-end m-bottom">
           <p class="tar">За эти долгие годы мы снискали доверие наших покупателей, которых с каждым днём становится всё больше и больше по всей нашей необъятной родине. Теперь онлайн-магазин PRESIDENT-WATCH есть не только в Берлине и Таллине но и Риге, в которых Вы можете приобрести наручные часы своей мечты.</p>
           <img src="img/two.png" alt="">
         </div>
-        <div class="col-md-6 flex justify-content-start">
+        <div class="col-xl-6 col-md-10 flex justify-content-start m-bottom">
           <img src="img/three.png" alt="" class="mt30">
           <p>Огромное количество производителей ежегодно, выпускают новые модели своих часов, и ставят на них баснословные цены, включая туда стоимость самого бренда и рекламы. Мы продаём точные копии этих же самых часов по ценам доступных каждому человеку. Наши дубликаты являются самыми достоверными, как визуально, так и технически. У нас огромный ассортимент, который всё время обновляется, так как мы периодически отслеживаем эти новые модели на мировом рынке часов, чтобы Вы получили не только качественный товар, но и новинку своевременно. </p>
         </div>
-        <div class="offset-md-6 col-md-6 flex justify-content-end">
+        <div class="offset-xl-6 col-xl-6 col-md-10 offset-md-2 flex justify-content-end m-bottom">
           <p class="tar">.. К каждому своему клиенту, мы подходим строго индивидуально, с особой отдачей и вниманием. В наших интересах, чтобы каждый наш покупатель был доволен своей покупкой, и она служила ему очень долгое время. Также, мы гарантируем возврат денежных средств в течение суток, если товар по тем или иным причинам пришлось вернуть или обменять. Только в PRESIDENT-WATCH доставка часов осуществляется в любую точку Эстонии совершенно Бесплатно и в самые кротчайшие сроки!</p>
           <img src="img/four.png" alt="">
         </div>
@@ -375,8 +382,8 @@
       </div>
 
       <div class="row">
-        <div class="col-md-9 offset-md-3 flex justify-content-between align-items-center">
-          <div class="orangeline"></div>
+        <div class="col-md-9 offset-md-3 flex justify-content-between align-items-center mt-50">
+          <div class="orangeline d-none d-sm-block"></div>
           <h4>С Уважением директор Латвийского филиала <b>PRESIDENT-WATCH</b> - Томас Кириллов<br>
           <img src="img/signature.png" style="float:right" alt="">
           </h4>
@@ -384,21 +391,27 @@
         </div>
       </div>
 
-      <div class="row flex justify-content-center">
-        <button class="btn getconsult">Получить<br>консультацию</button>
-        <button class="btn getcatalog">Каталог</button>
+      <div class="row">
+        <div class="col-xl-2 col-md-4 offset-md-2 offset-xl-4 col-6">
+          <button class="btn getconsult">Получить<br>консультацию</button>
+        </div>
+        <div class="col-xl-2 col-md-4 col-6">
+          <button class="btn getcatalog">Каталог</button>
+        </div>
       </div>
 
     </div>
   </section>
 
   <footer>
-    <div class="container">
+    <div class="container mustconti">
       <div class="row subscribe flex justify-content-center">
 
-        <div class="col-md-11 flex justify-content-between align-items-center">
+        <div class="col-md-6 flex justify-content-center align-items-center">
           <img src="img/email.png" class="email" alt="">
           <p>Подпишитесь! Новинки, скидки, предложения!</p>
+        </div>
+        <div class="col-md-5 flex justify-content-center align-items-center">
           <input type="text" placeholder="Введите email">
           <button class="btn">Подписаться</button>
         </div>
@@ -408,10 +421,10 @@
     <img src="img/longline.png" class="longline" alt="">
     <div class="container">
       <div class="row footer">
-        <div class="col-md-2">
+        <div class="col-xl-2 col-md-4">
           <img src="img/logo2.png" class="footlogo" alt="">
         </div>
-        <div class="col-md-5">
+        <div class="col-xl-5 col-md-8">
           <nav class="nav justify-content-around align-items-center">
             <a class="nav-item nav-link delivery_button">ОПЛАТА</a>
             <a class="nav-item nav-link garanty_button">ГАРАНТИЯ</a>
@@ -419,11 +432,8 @@
             <a class="nav-item nav-link">АКСЕССУАРЫ</a>
           </nav>
         </div>
-        <div class="col-md-5 flex justify-content-between align-items-center sponsors">
-          <img src="img/cards.png" alt="">
-          <img src="img/smalline.png" alt="">
-          <img src="img/facebook.png" alt="">
-          <img src="img/Dpd.png" alt="">
+        <div class="col-xl-5 flex justify-content-center align-items-center sponsors">
+          <img src="img/sponsors.png" alt="">
         </div>
       </div>
 
@@ -432,20 +442,39 @@
       </div>
     </div>
   </footer>
+
 </body>
 <script type="text/javascript">
 
   $(document).ready(function () {
 
+    $(document).on('click','.openmenu',function () {
+      $(this).hide();
+      $('.closemenu').show();
+      $('.mobile-menu').slideDown();
+    });
 
-    $(document).on('click','.getconsult,.header .sendcall,.consult',function () {
+    $(document).on('click','.closemenu',function () {
+      $(this).slideUp('slow');
+      $('.openmenu').show();
+      $('.mobile-menu').slideUp('slow');
+    });
+
+    $(document).on('click','.mobile-menu li a',function () {
+      $('.closemenu').hide();
+      $('.openmenu').show();
+      $('.mobile-menu').slideUp('slow');
+    });
+
+    $(document).on('click','.header .sendcall, .consult',function () {
       $('.modal-wrapper').css("display","flex");
       $('body').css('overflow','hidden');
-      $('.consultwindow').show();
+      console.log('ololol');
+      $('.consultwindow').fadeIn('slow');
     });
 
     $(document).on('click','.closewindow',function () {
-      $(this).closest('.popup').hide();
+      $(this).closest('.popup').fadeOut('slow');
       $('.modal-wrapper').css("display","none");
       $('body').css('overflow-y','scroll');
     });
@@ -453,19 +482,28 @@
     $(document).on('click','.delivery_button',function () {
       $('.modal-wrapper').css("display","flex");
       $('body').css('overflow','hidden');
-      $('.delivery').show();
+      $('.delivery').fadeIn('slow');
     });
 
     $(document).on('click','.garanty_button',function () {
       $('.modal-wrapper').css("display","flex");
       $('body').css('overflow','hidden');
-      $('.garanty').show();
+      $('.garanty').fadeIn('slow');
     });
 
-    $(document).on('click','.basket,.product .buy',function () {
+    $(document).on('click','.basket, .product .buy',function () {
       $('.modal-wrapper').css("display","flex");
       $('body').css('overflow','hidden');
-      $('.korzina').show();
+      $('.korzina').fadeIn('slow');
+    });
+
+    $(document).on('click','.noncheckedd',function () {
+      $(this).hide();
+      $('.checkedd').show();
+    });
+    $(document).on('click','.checkedd',function () {
+      $(this).hide();
+      $('.noncheckedd').show();
     });
 
   });
