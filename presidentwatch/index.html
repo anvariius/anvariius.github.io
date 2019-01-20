@@ -124,6 +124,7 @@
       </div>
       <div class="wline"></div>
       <div class="wrap">
+
         <div class="row sline">
           <div class="col-lg-6 col-4">
             <p style="text-align: left;">Название</p>
@@ -138,15 +139,15 @@
             <p class="summargin">СУММА</p>
           </div>
         </div>
-        <div class="row sline">
+        <div class="row sline hidden primer">
           <div class="col-lg-6 col-4">
             <div class="tovar flex align-items-center">
               <img src="img/iconsm.png" alt="">
-              <p style="text-align: left;">Название</p>
+              <p style="text-align: left;"><span class="wmark">Марка</span><br><span class="wmodel">Модель</span></p>
             </div>
           </div>
           <div class="col-2 col-lg-2 flex align-items-center justify-content-center">
-            <p>25$</p>
+            <p><span class="wprice">25</span>$</p>
           </div>
           <div class="col-4 col-lg-2 flex align-items-center justify-content-center">
             <p>
@@ -161,9 +162,11 @@
             </p>
           </div>
           <div class="col-2 col-lg-2 flex align-items-center justify-content-center">
-            <p>25$</p>
+            <p><span class="wsumm">25</span>$</p>
           </div>
         </div>
+      <div class="tovarwrap">
+      </div>
 
         <div class="row">
           <div class="col-md-7 promocode flex align-items-center justify-content-around">
@@ -172,10 +175,10 @@
           </div>
           <div class="col-md-5">
             <div class="wrap2 mt60">
-              <p>Цена товаров:</p><p>40.00$</p>
+              <p>Цена товаров:</p><p><span class="wsumma">0</span>$</p>
             </div>
             <div class="wrap2">
-              <p>Итоговая цена:</p><p>40.00$</p>
+              <p>Итоговая цена:</p><p><span class="itogo">0</span>$</p>
             </div>
           </div>
         </div>
@@ -185,7 +188,7 @@
             <img src="img/checked.png" class="checkedd" alt="">
             <img src="img/checknone.png" class="noncheckedd" alt="">
             <img src="img/info.png" alt="">
-            <p>10.50$</p>
+            <p>10$</p>
           </div>
         </div>
         <div class="row flex justify-content-between">
@@ -193,17 +196,17 @@
           <button class="zakaz">ЗАКАЗАТЬ</button>
         </div>
       </div>
-      <!--
+
       <div class="wline"></div>
       <div class="wrap">
         <div class="row flex justify-content-around">
-          <img src="img/iconxl.png" alt="">
-          <img src="img/iconxl.png" alt="">
-          <img src="img/iconxl.png" alt="">
-          <img src="img/iconxl.png" alt="">
+          <img src="img/iconxl.png" class="bolimg" alt="">
+          <img src="img/iconxl.png" class="bolimg" alt="">
+          <img src="img/iconxl.png" class="bolimg" alt="">
+          <img src="img/iconxl.png" class="bolimg" alt="">
         </div>
       </div>
-    -->
+
     </div>
 
   </div>
@@ -275,10 +278,10 @@
               <img src="img/product_icon.png" class="product-icon" alt=""><br>
           </div>
           <div class="col-xl-6 col-md-6">
-            <h2>NAME</h2>
+            <h2 class="w-name">NAME</h2>
             <span>Артикул</span>
-            <h3>Элитеые мужские часы</h3>
-            <h4>Элитеые мужские часы</h4>
+            <h3 class="w-price">Элитеые мужские часы</h3>
+            <h4 class="">Элитеые мужские часы</h4>
             <div class="buy-block flex justify-content-md-end justify-content-around">
               <button class="btn buy">Купить</button><a href="" class="buy-click">Купить в 1 клик</a>
             </div>
@@ -312,14 +315,41 @@
         </div>
         <div class="row">
           <div class="col-10 offset-1 white-block flex justify-content-center">
-            <div class="col-md-5">
-              <p>Выберите модель часов</p>
+            <div class="col-md-5 w-marka">
+              <p>Выберите марку часов</p>
+              <a marka="tissot" class="active">tissot</a>
+              <a marka="hubolt">hubolt</a>
+              <a marka="casio">casio</a>
+              <a marka="tag heuer">tag heuer</a>
             </div>
             <div class="col-md-1">
               <img src="img/blackline.png" alt="">
             </div>
-            <div class="col-md-5">
-              <p>Выберите марку часов</p>
+            <div class="col-md-5 w-model">
+              <p>Выберите модель часов</p>
+              <div w-block="tissot">
+                <a model="dream" price="28" class="active">dream</a>
+                <a model="lovely" price="21">lovely</a>
+                <a model="tradition" price="58">tradition</a>
+              </div>
+              <div w-block="hubolt" style="display:none;">
+                <a model="3AVEF" price="67" class="active">3AVEF</a>
+                <a model="2AVEF" price="98">2AVEF</a>
+                <a model="1000W" price="12">1000W</a>
+                <a model="1154PQ" price="24">1154PQ</a>
+              </div>
+              <div w-block="casio" style="display:none;">
+                <a model="1154PQ" price="31" class="active">1154PQ</a>
+                <a model="4AVEF" price="76">4AVEF</a>
+                <a model="1AVEF" price="43">1AVEF</a>
+                <a model="9AVEF" price="13">9AVEF</a>
+              </div>
+              <div w-block="tag heuer" style="display:none;">
+                <a model="1AVES" price="35" class="active"></a>
+                <a model="7AVES" price="81">7AVES</a>
+                <a model="1AVEF" price="62">1AVEF</a>
+                <a model="7AEF" price="10">7AEF</a>
+              </div>
             </div>
           </div>
         </div>
@@ -446,7 +476,131 @@
 </body>
 <script type="text/javascript">
 
+  var w_model = 'dream', w_marka = 'tissot',w_price = '28';
+  var basket = [];
+  var summ = 0;
+  var itogo = 0;
+  var mtop = $('.korzina').css('margin-top');
+  console.log(mtop);
+  mtop = mtop.substr(0, mtop.length - 2);
+  mtop = parseInt(mtop);
+  console.log(mtop);
+
+  $('.w-name').text(w_marka+" "+w_model);
+  $('.w-price').text(w_price+"$");
+
+  var watches = {
+    "tissot": ['dream', 'lovely', 'tradition'],
+    "hubolt": ['1154PQ','1000W','2AVEF','3AVEF'],
+    "casio": ['4AVEF','1AVEF','9AVEF','1154PQ'],
+    "tag heuer": ['7AVES','1AVEF','7AEF','1AVES']
+  };
+
+
+
+  console.log(w_marka+" "+w_model);
+
+
   $(document).ready(function () {
+
+
+
+    $(document).on('click','.w-marka a', function () {
+
+      if($(this).hasClass('active')){
+
+      }else{
+        //w_marka = $(this).attr('marka');
+
+        $('.w-marka a').removeClass('active');
+        $('.w-model a').removeClass('active');
+        $(this).addClass('active');
+
+        $('div[w-block]').hide();
+        $('div[w-block="'+$(this).attr('marka')+'"]').show();
+      }
+
+    });
+
+    $(document).on('click','.w-model a', function () {
+      w_model = $(this).attr('model');
+      w_price = $(this).attr('price');
+      w_marka = $(this).closest('div[w-block]').attr("w-block");
+
+      $('.w-model a').removeClass('active');
+      $(this).addClass('active');
+
+      console.log(w_marka+" "+w_model);
+
+      $('.w-name').text(w_marka+" "+w_model);
+      $('.w-price').text(w_price+"$");
+    });
+
+
+
+
+    $(document).on('click','.product .buy', function () {
+      if(basket.indexOf(w_marka+" "+w_model) == -1 ){
+
+        basket.push(w_marka+" "+w_model);
+        console.log(basket);
+
+        summ = summ + parseInt(w_price);
+        itogo += parseInt(w_price);
+
+        $('.primer .wmark').text(w_marka);
+        $('.primer .wmodel').text(w_model);
+        $('.primer .wprice').text(w_price);
+        $('.primer .wsumm').text(w_price);
+
+        $('.primer').clone().removeClass('hidden').removeClass('primer').appendTo('.tovarwrap');
+
+        $('.wsumma, .itogo').text(summ);
+
+        mtop += 50;
+
+        $('.korzina').css('margin-top',mtop+"px");
+
+      }
+    });
+
+
+    $(document).on('click','.del_tovar',function () {
+      var thissumm = parseInt($(this).closest('.sline').find('.wsumm').text()),
+          thismarka = parseInt($(this).closest('.sline').find('.wmark').text()),
+          thismodel = parseInt($(this).closest('.sline').find('.wmodel').text());
+
+          basket.pop(thismarka+" "+thismodel);
+          console.log(basket);
+
+          summ = summ - thissumm;
+          itogo -= thissumm;
+          $(this).closest('.sline').remove();
+          $('.wsumma').text(summ);
+          $('.itogo').text(itogo);
+
+    });
+
+    $(document).on('change','select',function () {
+      var kolvo = $(this).val();
+      var thissumm = parseInt($(this).closest('.sline').find('.wsumm').text()),
+          thisprice = parseInt($(this).closest('.sline').find('.wprice').text());
+      itogo -= summ;
+      summ = summ - thissumm;
+      summ += thisprice * kolvo;
+
+      itogo += summ;
+
+      $(this).closest('.sline').find('.wsumm').text(thisprice * kolvo);
+
+      $('.wsumma').text(summ);
+      $('.itogo').text(itogo);
+    });
+
+
+
+
+
 
     $(document).on('click','.openmenu',function () {
       $(this).hide();
@@ -473,7 +627,7 @@
       $('.consultwindow').fadeIn('slow');
     });
 
-    $(document).on('click','.closewindow',function () {
+    $(document).on('click','.closewindow, .continue',function () {
       $(this).closest('.popup').fadeOut('slow');
       $('.modal-wrapper').css("display","none");
       $('body').css('overflow-y','scroll');
@@ -500,10 +654,28 @@
     $(document).on('click','.noncheckedd',function () {
       $(this).hide();
       $('.checkedd').show();
+      itogo = itogo + 10;
+      $('.itogo').text(itogo);
     });
     $(document).on('click','.checkedd',function () {
       $(this).hide();
       $('.noncheckedd').show();
+      itogo = itogo - 10;
+      $('.itogo').text(itogo);
+    });
+
+
+
+    $('.figure').mouseenter(function () {
+      console.log('ok');
+      $(this).find('img').animate({
+        height: '40px'
+      },300);
+    });
+    $('.figure').mouseleave(function () {
+      $(this).find('img').animate({
+        height: '30px'
+      },300);
     });
 
   });

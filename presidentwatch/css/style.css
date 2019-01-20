@@ -197,6 +197,27 @@ header{
   font-size: 14px;
   font-weight: 400;
 }
+.product .white-block a{
+  color: #cfa86b;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.product .white-block a:hover{
+  background-color: #cfa86b;
+}
+.product .white-block a.active{
+  background-color: #cfa86b;
+  color: #fff;
+}
+
+.hidden{
+  display: none;
+}
 
 .feedback nav a{
   color: #ffffff;
@@ -569,6 +590,10 @@ footer .consult {
   font-weight: 500;
 }
 
+.bolimg{
+  margin-bottom: 30px;
+}
+
 
 .garanty {
   background-image: url('../img/bg11.png');
@@ -633,7 +658,8 @@ footer .consult {
 .korzina{
   background-color: #010920;
   width: 914px;
-  margin: 100px auto 40px;
+  margin: 0 auto 40px;
+  margin-top: 50px;
 }
 .korzina .wrapp{
   width: 100%;
@@ -786,6 +812,9 @@ footer .nav a:hover{
   width: 100%;
   color: #a37a47;
 }
+.figure{
+  height: 70px;
+}
 .mobile-menu li{
   border-bottom: 1px solid #cfa86b;
 }
@@ -813,6 +842,13 @@ footer .nav a:hover{
 
 
 @media (max-width: 575.98px) {
+  .product .white-block p{
+    font-size: 12px;
+
+  }
+  .product .white-block a{
+    font-size: 12px;
+  }
   .popup{
     width: 85%;
   }
@@ -826,7 +862,8 @@ footer .nav a:hover{
     font-size: 20px;
   }
   .korzina{
-    margin: 200px auto 40px;
+    margin: 0 auto 40px;
+    margin-top: 100px;
   }
   .korzina .visaa {
     height: 22px;
@@ -1003,6 +1040,10 @@ footer .nav a:hover{
   .footer .sponsors img{
     height: 30px;
     margin-top: 20px;
+  }
+
+  .bolimg{
+    height: 40px;
   }
 }
 
