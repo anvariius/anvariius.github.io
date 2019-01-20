@@ -237,7 +237,11 @@
 
           <div class="col-xl-4 col-md-2 offset-xl-1 flexblock">
             <button class="btn sendcall">Заказать<br>звонок</button>
-            <img src="img/basket.png" class="basket">
+            <div class="basket-wrap">
+              <img src="img/basket.png" class="basket">
+              <span class="badge badge-success kol-vo">0</span>
+            </div>
+
           </div>
 
         </div>
@@ -363,10 +367,13 @@
             </nav>
             <p>Принципиальное отличие наших часов от дешевых копий</p>
           </div>
-          <div class="col-xl-6 col-md-8 offset-md-2 justify-content-between flex">
+          <div class="col-xl-6 offset-xl-0 col-md-8 offset-md-2 justify-content-between flex">
             <a class="consult">Консультация по телефону</a>
             <button class="btn">Оформить<br>заказ</button>
-            <img src="img/basket.png" class="basket d-none d-sm-block" alt="">
+            <div class="basket-wrap1">
+              <img src="img/basket.png" class="basket d-none d-sm-block" alt="">
+              <span class="badge badge-success kol-vo">0</span>
+            </div>
           </div>
         </div>
       </div>
@@ -631,6 +638,8 @@
       $(this).closest('.popup').fadeOut('slow');
       $('.modal-wrapper').css("display","none");
       $('body').css('overflow-y','scroll');
+
+      $('.kol-vo').text(basket.length);
     });
 
     $(document).on('click','.delivery_button',function () {
@@ -649,6 +658,9 @@
       $('.modal-wrapper').css("display","flex");
       $('body').css('overflow','hidden');
       $('.korzina').fadeIn('slow');
+
+      $('.kol-vo').text(basket.length);
+
     });
 
     $(document).on('click','.noncheckedd',function () {

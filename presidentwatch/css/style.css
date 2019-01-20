@@ -38,12 +38,19 @@ header{
   line-height: 10.43px;
   padding-top: 10px;
   padding-left: 65px;
+  cursor: pointer;
+}
+.header .phones:hover{
+  color: #899dab;
 }
 .header .phones img{
   width: 17px;
 }
 .header .phones a{
   color: #404f5a;
+}
+.header .phones a:hover{
+  color:#899dab;
 }
 .header .flexblock{
   display: flex;
@@ -169,6 +176,19 @@ header{
   font-weight: 400;
   line-height: 12.72px;
   text-align: center;
+}
+.basket-wrap span{
+  z-index: 101;
+  margin-left: -20px;
+}
+.basket-wrap1 span {
+  z-index: 101;
+  margin-left: 100px;
+  position: absolute;
+  margin-top: -30px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bold;
 }
 .product .preferences img{
   display: block;
@@ -842,6 +862,10 @@ footer .nav a:hover{
 
 
 @media (max-width: 575.98px) {
+
+  .basket-wrap1 span{
+    display: none !important;
+  }
   .product .white-block p{
     font-size: 12px;
 
@@ -903,7 +927,8 @@ footer .nav a:hover{
     margin-left: 0;
     height: 45px;
   }
-  .header .phones{
+  .header .
+  {
     padding: 30px 10px;
   }
   .header .closemenu{
@@ -924,6 +949,7 @@ footer .nav a:hover{
   }
   .header .phones{
     text-align: center;
+    padding: 20px 0;
   }
   .menu-list{
     display: none;
@@ -1163,6 +1189,13 @@ footer .nav a:hover{
     margin-top: 40px;
     height: 70px;
     margin-left: 0;
+  }
+
+  .basket-wrap span {
+    z-index: 101;
+    margin-left: 120px;
+    position: absolute;
+    margin-top: -30px;
   }
 }
 
