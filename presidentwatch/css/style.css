@@ -520,6 +520,7 @@ footer .consult {
 }
 .approved .linee{
   margin: 20px 0;
+  height: 1px;
 }
 .approved p{
   font-size: 17px;

@@ -130,7 +130,7 @@
                 </div>
               </div>
               <div class="row">
-                <button>Подтвердить заказ</button>
+                <button class="zakazatt">Подтвердить заказ</button>
               </div>
             </div>
           </div>
@@ -172,7 +172,7 @@
           <input type="text" placeholder="Номер телефона">
         </div>
         <div class="row flex justify-content-center">
-          <button>заказать</button>
+          <button class="zakazatt">заказать</button>
         </div>
       </div>
     </div>
@@ -199,7 +199,7 @@
           <button>Применить</button>
         </div>
         <div class="row flex justify-content-center">
-          <button class="onecl-btn">заказать</button>
+          <button class="onecl-btn zakazatt">заказать</button>
         </div>
       </div>
     </div>
@@ -862,8 +862,16 @@
       $('.oplata button').removeClass('active');
       $(this).addClass('active');
     });
+
     $(document).on('click','.other-day',function () {
       $('.premium-card').slideUp('slow');
+    });
+
+    $(document).on('click','.zakazatt',function () {
+      $('.modal-wrapper').css("display","flex");
+      $('body').css('overflow','hidden');
+      $('.popup').hide();
+      $('.prinyato').fadeIn('slow');
     });
 
 
