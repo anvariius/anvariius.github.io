@@ -537,10 +537,138 @@ footer .consult {
   margin: 0 5px;
 }
 
+
+.checkout{
+  width: 914px;
+  margin-top: 250px;
+  margin-bottom: 40px;
+}
+.checkout .logo{
+  height: 55px;
+}
+.checkout .contact-block img{
+  height: 38px;
+}
+.checkout .contact-block p{
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 18.2px;
+  text-transform: uppercase;
+  margin: 10px 20px 0 15px;
+  display: block;
+
+}
+.checkout .contact-block span{
+  font-size: 11px;
+}
+.checkout h3{
+  color: #cfa86b;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 17.56px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.checkout p{
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.83px;
+  text-transform: none;
+  text-align: left;
+}
+.checkout button{
+  border-radius: 5px;
+  border: 2px solid #cfa86b;
+  background: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15.83px;
+  padding: 7px 15px;
+  color: #fff;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.checkout button span{
+  font-weight: bold;
+}
+.checkout input{
+  height: 23px;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  background: none;
+  width: 100%;
+  margin-bottom: 20px;
+  color: #fff;
+  padding-left: 10px;
+}
+.premium-card{
+  background-color: #222222;
+  width: 100%;
+  padding: 14px 10px;
+}
+.premium-card h4{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20.33px;
+}
+.premium-card span{
+  color: #cfa86b;
+}
+.premium-card ul{
+  padding-left: 20px;
+}
+.premium-card ul li{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.42px;
+}
+.final{
+  margin-top: 20px;
+}
+.final p{
+  font-size: 15px;
+  text-align: right;
+}
+.final button{
+  height: 53px;
+  border-radius: 5px;
+  background-color: #000000;
+  background-image: linear-gradient(to bottom, rgba(230, 183, 115, 0.87) 0%, rgba(132, 93, 37, 0.87) 100%);
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 15.83px;
+  margin: 0 auto 30px;
+  border: none;
+}
+.final-itogo{
+  font-size: 25px !important;
+}
+.itogoo{
+  font-size: 25px !important;
+}
+.mt20{
+  margin-top: 20px;
+}
+
 .consultwindow{
   width: 357px;
 }
+.oneclick{
+  width: 357px;
+}
 .consultwindow input{
+  border-radius: 10px;
+  border: 2px solid #cfa86b;
+  background-color: #ffffff;
+  width: 80%;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 36.96px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.oneclick input{
   border-radius: 10px;
   border: 2px solid #cfa86b;
   background-color: #ffffff;
@@ -558,8 +686,30 @@ footer .consult {
   font-weight: 500;
   line-height: 36.96px;
 }
+.oneclick input::placeholder{
+  color: #000000;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 36.96px;
+}
+.oneclick .linee{
+  margin: 10px 0;
+}
 .consultwindow .linee{
   margin: 10px 0;
+}
+.oneclick button{
+  background-color: #b3915f;
+  background-image: linear-gradient(to bottom, #e6b773 0%, #845d25 100%);
+  padding: 15px 42px;
+  border: none;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 20.49px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  margin: 20px 0;
 }
 .consultwindow button{
   background-color: #b3915f;
@@ -573,6 +723,9 @@ footer .consult {
   color: #fff;
   border: none;
   margin: 20px 0;
+}
+.oneclick button:hover{
+  background-image: linear-gradient(to top, rgba(163, 116, 34, 0.57) 0%, rgba(216, 180, 130, 0.57) 100%);
 }
 .consultwindow button:hover{
   background-image: linear-gradient(to top, rgba(163, 116, 34, 0.57) 0%, rgba(216, 180, 130, 0.57) 100%);
@@ -707,7 +860,7 @@ footer .consult {
 .korzina .visaa{
   height: 24px;
 }
-.korzina .wline{
+.wline{
   width: 100%;
   height: 1px;
   background-color: #fff;
@@ -859,9 +1012,68 @@ footer .nav a:hover{
   cursor: pointer;
 }
 
+.premium-card .ml20{
+  margin-left: 20px;
+}
 
+.oneclick .promoc input{
+  width: 55%;
+  height: 35px;
+}
+.oneclick .promoc button{
+  border-radius: 10px;
+  background-color: #cfa86b;
+  width: 25%;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 26.43px;
+  padding: 0;
+  height: 35px;
+  margin: 0;
+  background-image: none;
+  margin-left: 5px;
+}
+.oneclick .promoc button:hover{
+  background-color: #e8d6ba;
+}
+.wrap5{
+  width: 80%;
+  margin: 0 auto;
+}
+.wrap5 p{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 36.96px;
+  text-transform: none;
+}
 
 @media (max-width: 575.98px) {
+
+  .checkout{
+    width: 914px;
+    margin-top: 550px;
+    margin-bottom: 40px;
+  }
+  .checkout .contact-block p{
+    font-size: 15px;
+  }
+  .checkout h3{
+    font-size: 18px;
+  }
+  .premium-card button{
+    margin: 0 auto;
+    display: block;
+  }
+  .premium-card .ml20{
+    margin: 10px auto 0;
+  }
+  .final p{
+    text-align: left;
+  }
+  .final button{
+    font-size: 19px;
+  }
+
 
   .basket-wrap1 span{
     display: none !important;
@@ -1080,6 +1292,9 @@ footer .nav a:hover{
   .consultwindow{
     width: 40%;
   }
+  .oneclick{
+    width: 40%;
+  }
   .header .phones{
     font-size: 14px;
   }
@@ -1139,10 +1354,16 @@ footer .nav a:hover{
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
+  .final button{
+    font-size: 20px;
+  }
   .popup{
     width: 90%;
   }
   .consultwindow{
+    width: 40%;
+  }
+  .oneclick{
     width: 40%;
   }
   .mustconti{

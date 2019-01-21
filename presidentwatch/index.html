@@ -12,6 +12,132 @@
 </head>
 <body>
   <div class="flex justify-content-center modal-wrapper">
+
+    <div class="popup approved checkout">
+      <img src="img/close.png" class="closewindow" alt="">
+      <div class="wrap">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/logo2.png" class="logo" alt="">
+          </div>
+          <div class="col-md-6">
+            <div class="contact-block flex justify-content-end align-items-center">
+              <img src="img/bigphone.png" alt="">
+              <p>+00000000000<br><span>с 9.00 до 22.00, без выходных</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-content-md-between justify-content-none align-items-center">
+
+
+        </div>
+      </div>
+      <div class="wline mt20"></div>
+      <div class="wrap">
+        <h3>Корзина</h3>
+      </div>
+      <div class="wline"></div>
+      <div class="wrap">
+        <h3>Контактные данные</h3>
+      </div>
+      <div class="wline"></div>
+      <div class="wrap">
+        <h3>Получение и оплата</h3>
+        <div class="wrap" style="margin-top:40px;">
+          <div class="row">
+            <div class="col-md-2">
+              <p>Как получить</p>
+            </div>
+            <div class="col-md-3">
+              <button class="dostavka">Доставка</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2">
+              <p>Как доставить</p>
+            </div>
+            <div class="col-md-3">
+              <button class="free btn">Курьером<br><span>бесплатно</span></button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2 offset-md-2">
+              <p>Адрес:</p>
+            </div>
+            <div class="col-md-6">
+              <input type="text">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2 offset-md-2">
+              <p>Номер телефона:</p>
+            </div>
+            <div class="col-md-6">
+              <input type="text">
+            </div>
+          </div>
+          <div class="row mt20">
+            <div class="col-md-2">
+              <p>Способ оплаты</p>
+            </div>
+            <div class="col-md-4">
+              <button type="button">Наличными при получении</button>
+            </div>
+            <div class="col-md-3">
+              <button style="border-color:#fff;">Онлайн-оплата</button>
+            </div>
+          </div>
+          <div class="premium-card">
+            <div class="row">
+              <div class="col-md-3">
+                <h4>Карта <span>Premium</span><br>клиента</h4>
+              </div>
+              <div class="col-md-7">
+                <ul>
+                  <li>Расширенная <span>Гарантия 3 года</span></li>
+                  <li><span>Сервисное обслуживание</span> вне очереди</li>
+                  <li><span>Скидка - 10 %</span> к каждому заказу</li>
+                  <li>Дополнительные <span>бонусы</span></li>
+                </ul>
+                <button>Получить</button><button class="ml20" style="border-color:#fff;">В другой раз</button>
+              </div>
+            </div>
+          </div>
+          <div class="row final">
+            <div class="col-md-5 offset-md-7">
+              <div class="row">
+                <div class="col-xl-8 col-6">
+                  <p>Стоимость товаров:</p>
+                </div>
+                <div class="col-xl-4 col-6">
+                  <p class="final-price"></p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-8 col-6">
+                  <p>Доставка:</p>
+                </div>
+                <div class="col-xl-4 col-6">
+                  <p>Бесплатно</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-8 col-6">
+                  <p class="itogoo">Итого:</p>
+                </div>
+                <div class="col-xl-4 col-6">
+                  <p class="final-itogo"></p>
+                </div>
+              </div>
+              <div class="row">
+                <button>Подтвердить заказ</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="popup approved prinyato">
       <img src="img/close.png" class="closewindow" alt="">
       <div class="wrap">
@@ -47,6 +173,33 @@
         </div>
         <div class="row flex justify-content-center">
           <button>заказать</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup approved oneclick">
+      <img src="img/close.png" class="closewindow" alt="">
+      <div class="wrap">
+        <div class="row flex justify-content-center mt30">
+          <img src="img/logo2.png" alt="" class="logo">
+        </div>
+        <div class="row flex justify-content-center">
+          <img src="img/linee.png" alt="" class="linee">
+        </div>
+        <div class="row flex justify-content-center">
+          <p><b>Заказать в 1 клик</b></p>
+          <input type="text" placeholder="Имя">
+          <input type="text" placeholder="Номер телефона">
+        </div>
+        <div class="row flex justify-content-between wrap5">
+          <p>Сумма заказа:</p><p class="sumzakaz"></p>
+        </div>
+        <div class="row flex justify-content-center promoc">
+          <input type="text" placeholder="Ввести промокод">
+          <button>Применить</button>
+        </div>
+        <div class="row flex justify-content-center">
+          <button class="onecl-btn">заказать</button>
         </div>
       </div>
     </div>
@@ -193,7 +346,7 @@
         </div>
         <div class="row flex justify-content-between">
           <button class="continue">Продолжить<br>покупки</button>
-          <button class="zakaz">ЗАКАЗАТЬ</button>
+          <button class="zakaz checkout-button">ЗАКАЗАТЬ</button>
         </div>
       </div>
 
@@ -369,7 +522,7 @@
           </div>
           <div class="col-xl-6 offset-xl-0 col-md-8 offset-md-2 justify-content-between flex">
             <a class="consult">Консультация по телефону</a>
-            <button class="btn">Оформить<br>заказ</button>
+            <button class="btn checkout-button">Оформить<br>заказ</button>
             <div class="basket-wrap1">
               <img src="img/basket.png" class="basket d-none d-sm-block" alt="">
               <span class="badge badge-success kol-vo">0</span>
@@ -627,7 +780,7 @@
       $('.mobile-menu').slideUp('slow');
     });
 
-    $(document).on('click','.header .sendcall, .consult',function () {
+    $(document).on('click','.header .sendcall, .consult, .getconsult',function () {
       $('.modal-wrapper').css("display","flex");
       $('body').css('overflow','hidden');
       console.log('ololol');
@@ -663,6 +816,34 @@
 
     });
 
+    $(document).on('click','.buy-click',function (e) {
+      e.preventDefault();
+      $('.modal-wrapper').css("display","flex");
+      $('body').css('overflow','hidden');
+      $('.oneclick').fadeIn('slow');
+      $('.sumzakaz').text($('.w-price').text());
+    });
+
+    $(document).on('click','.checkout-button',function () {
+      if(basket.length>0){
+        $('.modal-wrapper').css("display","flex");
+        $('body').css('overflow','hidden');
+        $('.korzina').hide('fast');
+
+        $('.checkout').fadeIn('slow');
+        $('.final-price').text(summ+"$");
+        $('.final-itogo').text(itogo+"$");
+
+      }
+    });
+/*
+    $(document).on('click','.onecl-btn',function () {
+      $('.oneclick').hide('fast');
+      $('.checkout').fadeIn('slow');
+      $('.final-price').text($('.sumzakaz').text());
+      $('.final-itogo').text($('.sumzakaz').text());
+    });
+*/
     $(document).on('click','.noncheckedd',function () {
       $(this).hide();
       $('.checkedd').show();
