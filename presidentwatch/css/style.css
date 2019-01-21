@@ -1,5 +1,13 @@
 @import url("../fonts/roboto.css");
 
+
+button:active, button:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+
 body{
   font-family: "Roboto";
   color: #fff;
@@ -710,6 +718,12 @@ footer .consult {
   color: #fff;
   border: none;
   margin: 20px 0;
+}
+.oplata button{
+  border-color: #fff;
+}
+.oplata .active{
+  border-color:#cfa86b;
 }
 .consultwindow button{
   background-color: #b3915f;

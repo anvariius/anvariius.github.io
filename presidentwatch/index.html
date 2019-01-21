@@ -76,7 +76,7 @@
               <input type="text">
             </div>
           </div>
-          <div class="row mt20">
+          <div class="row mt20 oplata">
             <div class="col-md-2">
               <p>Способ оплаты</p>
             </div>
@@ -84,7 +84,7 @@
               <button type="button">Наличными при получении</button>
             </div>
             <div class="col-md-3">
-              <button style="border-color:#fff;">Онлайн-оплата</button>
+              <button class="active">Онлайн-оплата</button>
             </div>
           </div>
           <div class="premium-card">
@@ -99,7 +99,7 @@
                   <li><span>Скидка - 10 %</span> к каждому заказу</li>
                   <li>Дополнительные <span>бонусы</span></li>
                 </ul>
-                <button>Получить</button><button class="ml20" style="border-color:#fff;">В другой раз</button>
+                <button class="get-card">Получить</button><button class="ml20 other-day" style="border-color:#fff;">В другой раз</button>
               </div>
             </div>
           </div>
@@ -850,12 +850,23 @@
       itogo = itogo + 10;
       $('.itogo').text(itogo);
     });
+
     $(document).on('click','.checkedd',function () {
       $(this).hide();
       $('.noncheckedd').show();
       itogo = itogo - 10;
       $('.itogo').text(itogo);
     });
+
+    $(document).on('click','.oplata button',function () {
+      $('.oplata button').removeClass('active');
+      $(this).addClass('active');
+    });
+    $(document).on('click','.other-day',function () {
+      $('.premium-card').slideUp('slow');
+    });
+
+
 
 
 
