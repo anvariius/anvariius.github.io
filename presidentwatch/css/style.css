@@ -259,11 +259,11 @@ header{
   background-color: #cfa86b;
   color: #fff;
 }
-
+/*
 .product .w-marka a.active{
-  border-bottom: 5px solid #cfa86b;
+  margin-bottom: 30px;
 }
-
+*/
 .product .w-marka img{
   width: 100%;
 }
