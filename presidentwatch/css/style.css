@@ -209,14 +209,31 @@ header{
   width: 100%;
   border-radius: 5px;
   background-color: #fff;
-  height: 310px;
+  height: auto;
   margin-top: 60px;
   margin-bottom: 48px;
   padding: 20px 0;
 }
-.product .white-block img{
-  height: 240px;
-  width: 2px;
+.product .w-marka a{
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+/*
+.product .w-marka img:hover{
+  width: 120%;
+}
+*/
+.product .white-block a:hover{
+  cursor: pointer;
+}
+.product .white-block .w-model,.w-marka{
+  width: 49%;
+  padding: 0 40px;
+}
+.product .white-block .border-line{
+  height: 340px;
+  width: 1px;
   margin: 0 auto;
   display: block;
 }
@@ -225,7 +242,7 @@ header{
   font-size: 14px;
   font-weight: 400;
 }
-.product .white-block a{
+.product .w-model a{
   color: #cfa86b;
   text-transform: uppercase;
   font-weight: bold;
@@ -235,12 +252,20 @@ header{
   cursor: pointer;
   font-size: 20px;
 }
-.product .white-block a:hover{
+.product .w-model a:hover{
   background-color: #cfa86b;
 }
-.product .white-block a.active{
+.product .w-model a.active{
   background-color: #cfa86b;
   color: #fff;
+}
+
+.product .w-marka a.active{
+  border-bottom: 5px solid #cfa86b;
+}
+
+.product .w-marka img{
+  width: 100%;
 }
 
 .hidden{
@@ -471,25 +496,25 @@ footer .longline{
 }
 
 footer .consult {
-    border: 2px dotted #cfa86b;
-    color: #fff;
-    padding: 7px 25px 20px;
-    font-size: 11px;
-    font-weight: bold;
-    margin-top: 40px;
+  border: 2px dotted #cfa86b;
+  color: #fff;
+  padding: 7px 25px 20px;
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 40px;
 }
 
 
 .modal-wrapper {
-    position:fixed;
-    display:none;
-    width:100%;
-    height:100%;
-    justify-content:center;
-    align-items:center;
-    background:rgba(0,0,0,.7);
-    z-index:105;
-    overflow-y: auto;
+  position:fixed;
+  display:none;
+  width:100%;
+  height:100%;
+  justify-content:center;
+  align-items:center;
+  background:rgba(0,0,0,.7);
+  z-index:105;
+  overflow-y: auto;
 }
 .popup{
   border-radius: 15px;
@@ -1064,6 +1089,13 @@ footer .nav a:hover{
 
 @media (max-width: 575.98px) {
 
+  .product .white-block .w-model, .w-marka{
+    padding: 0 10px;
+  }
+  .product .w-marka a{
+    height: 50px;
+  }
+
   .checkout{
     width: 914px;
     margin-top: 550px;
@@ -1369,6 +1401,11 @@ footer .nav a:hover{
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
+
+  .product .white-block .w-model, .w-marka{
+    padding: 0 10px;
+  }
+
   .final button{
     font-size: 20px;
   }
