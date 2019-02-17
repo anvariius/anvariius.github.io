@@ -1,11 +1,11 @@
 @import url("../fonts/roboto.css");
 
 
-button:active, button:focus {
-  outline: none;
+button:active, button:focus, textarea:focus, input:focus, button:visited, input {
+  outline: none !important;
 }
 button::-moz-focus-inner {
-  border: 0;
+  border: 0 !important;
 }
 
 body{
@@ -118,9 +118,33 @@ header{
   margin-top: 76px;
 }
 .product .product-icon{
-  display: block;
   height: 85px;
   width: 85px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-color: #d2c1af;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.product .product-lg{
+  width: 100%;
+  height: 400px;
+  background-color: #d2c1af;
+  border-radius: 15px;
+  background-image: url('../img/2.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+
+}
+.opisanie{
+  margin-left: 20px;
+}
+.product .product-lg img{
+  width: 100%;
+  height: auto;
 }
 .product h2{
   font-size: 29px;
@@ -128,6 +152,7 @@ header{
   line-height: 11px;
   text-transform: uppercase;
   margin-bottom: 86px;
+  margin-top: 20px;
 }
 .product span{
   color: #d2c1af;
@@ -230,6 +255,14 @@ header{
 .product .white-block .w-model,.w-marka{
   width: 49%;
   padding: 0 40px;
+}
+.product .model-block{
+  display: flex;
+  justify-content: space-between;
+}
+.product .w-model img{
+  height: 200px;
+  cursor: pointer;
 }
 .product .white-block .border-line{
   height: 340px;
@@ -720,6 +753,9 @@ footer .consult {
   font-weight: 500;
   line-height: 36.96px;
 }
+.redplaceholder::placeholder{
+  color: red !important;
+}
 .oneclick input::placeholder{
   color: #000000;
   font-size: 15px;
@@ -1089,6 +1125,10 @@ footer .nav a:hover{
 
 @media (max-width: 575.98px) {
 
+  .opisanie{
+    margin-left: 0;
+  }
+
   .product .white-block .w-model, .w-marka{
     padding: 0 10px;
   }
@@ -1220,9 +1260,14 @@ footer .nav a:hover{
     display: none;
   }
   .product .product-icon{
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .product .product-lg{
+    height: 350px;
+    margin-left: 0;
   }
   .product h2{
     margin-bottom: 26px;
@@ -1333,6 +1378,14 @@ footer .nav a:hover{
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .opisanie{
+    margin-left: 20px;
+  }
+
+  .product-lg{
+    margin-left: 0;
+  }
+
   .popup{
     width: 90%;
   }
@@ -1401,6 +1454,13 @@ footer .nav a:hover{
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
+
+  .opisanie{
+    margin-left: 20px;
+  }
+  .product-lg{
+    margin-left: -15px !important;
+  }
 
   .product .white-block .w-model, .w-marka{
     padding: 0 10px;
