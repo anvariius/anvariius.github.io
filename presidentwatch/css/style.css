@@ -261,7 +261,7 @@ header{
   justify-content: space-between;
 }
 .product .w-model img{
-  height: 200px;
+  height: 120px;
   cursor: pointer;
 }
 .product .white-block .border-line{
