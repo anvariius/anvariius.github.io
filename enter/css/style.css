@@ -1,0 +1,1123 @@
+@import url('../fonts/stylesheet.css');
+
+button:active, button:focus, textarea:focus, input:focus, button:visited, input {
+  outline: none !important;
+}
+button::-moz-focus-inner {
+  border: 0 !important;
+}
+
+.footer-bg header{
+  background-color:#191919;
+}
+
+.flex{
+  display: flex;
+}
+
+h1,h2,h3,a,p{
+  color: #fff;
+  font-family: 'Segoe UI';
+}
+img{
+  display: block;
+}
+a:hover{
+  text-decoration: none;
+  color: #e83587;
+}
+section{
+  background-color: #000;
+}
+header{
+  background-color: #0b0c0e;
+  padding: 18px 0;
+}
+header .logo{
+  height: 43px;
+  width: auto;
+  display: block;
+}
+.header-wrap{
+  width: 70%;
+  margin: 0 auto;
+}
+.header-list{
+  margin-top: 10px;
+}
+.header-list img{
+  height: 8px;
+  width: auto;
+}
+.header-list a{
+  color: #ffffff;
+  font-family: "Segoe UI - Semibold";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19.23px;
+  text-transform: uppercase;
+}
+.header-list a:hover{
+  text-decoration: none;
+  color: #e83587;
+}
+
+.header-info p{
+  color: #6c6c6c;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19.23px;
+  margin-bottom: 0;
+  margin-top: 12px;
+}
+.header-info p:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color: #e83587;
+}
+.header-numbers{
+  text-align: center;
+}
+.call-icon{
+  z-index: 101;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.header-numbers a{
+  font-family: "Segoe UI - Semibold";
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 19.09px;
+  color: #fff;
+  display: block;
+}
+.header-numbers a:hover{
+  text-decoration: none;
+  color: #e83587;
+}
+.header-numbers span{
+  color: #6c6c6c;
+  font-family: "Segoe UI";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20.57px;
+  display: block;
+}
+.header-numbers span:hover{
+  color: #e83587;
+  cursor: pointer;
+}
+.header-numbers button{
+  background-color: inherit;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-family: "Segoe UI - Semibold";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 11.16px;
+  padding: 10px;
+}
+.header-numbers button:hover{
+  color: #e83587;
+  border-color: #e83587;
+  cursor: pointer;
+}
+
+
+.navigator{
+  background-color: #4e4e4e;
+  padding: 20px;
+}
+.navigator a{
+  color: #fff;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19.23px;
+  display: block;
+  margin: 0 20px;
+}
+.navigator a:hover{
+  color: #e83587;
+  text-decoration: none;
+}
+
+
+
+.iphone-banner{
+  display: block;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 30px;
+  background-image: url('../img/iphone-banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.iphone-xr{
+  background-color: #000;
+}
+.iphone-img{
+  height: 220px;
+  margin: 0 auto 30px;
+  display: block;
+}
+.iphone-logo{
+  height: 25px;
+  margin: 0 auto 10px;
+  display: block;
+}
+.memory{
+  color: #ffffff;
+  font-family: "Segoe UI - Semibold";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.64px;
+  text-transform: uppercase;
+  padding: 2px 0px;
+  text-align: center;
+  display: block;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+  margin-bottom: 0px;
+  width: 64px;
+  height: 27px;
+}
+.iphone-price{
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.86px;
+  margin-bottom: 5px;
+}
+.buy-iphone{
+  color: #000000;
+  font-family: "Segoe UI";
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 32.86px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  border: none;
+  text-transform: uppercase;
+  padding: 0px 30px;
+}
+.buy-iphone:hover{
+  cursor: pointer;
+  background-color: #e83587;
+}
+.about-iphone{
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 14.53px;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+.about-iphone:hover{
+  color: #e83587;
+}
+.banner{
+  display: block;
+  margin:0 auto 30px;
+  width: 40%;
+}
+.mb10{
+  margin-bottom: 10px;
+}
+.iphone-xs .memory, .iphone-xsmax .memory, .sevenplus .memory, .iphone-xr .memory{
+  margin-right: 10px;
+}
+
+.iphone-xsmax{
+  padding-top: 75px;
+}
+
+
+.airpods{
+  background-color: #000;
+  padding: 90px 0;
+}
+.airpods-banner{
+  height: 350px;
+  display: block;
+  /*float: right;*/
+}
+.line{
+  height: 0.7px;
+  display: block;
+  margin: 75px 0 65px;
+}
+
+.subscribe{
+  background-color: #191919;
+  border-bottom: 2px solid #2a2929;
+  padding: 12px 0;
+}
+.subscribe p{
+  color: #ffffff;
+  font-family: "Segoe UI - Semibold";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 14.54px;
+  display: block;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.subscribe img{
+  height: 32px;
+  display: block;
+}
+.subscribe input{
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: none;
+  width: 324px;
+  height: 45px;
+  font-family: "Segoe UI - Semibold";
+  font-size: 14px;
+  font-weight: 400;
+  /*line-height: 14.54px;*/
+  padding-left: 16px;
+  margin-right: 20px;
+}
+.subscribe input::placeholder{
+  color: #a6a6a6;
+}
+.subscribe button{
+  width: 225px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: #ff0066;
+  border: none;
+  color: #ffffff;
+  font-family: "Segoe UI - Semibold";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 14.54px;
+}
+.subscribe button:hover{
+  cursor: pointer;
+  background-color: #8c0c24;
+}
+
+.sponsors{
+  padding: 10px 0 30px;
+  background-color: #191919;
+}
+.sponsors div{
+  height: 45px;
+  width: 170px;
+  opacity: 0.5;
+}
+.sponsors div:hover{
+  opacity: inherit;
+}
+.sponsors .mcd{
+  background-image: url('../img/mcd.png');
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sponsors .dp{
+  background-image: url('../img/dp.png');
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sponsors .fb{
+  background-image: url('../img/fb.png');
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header-footer{
+  background-color: #191919;
+}
+
+.zakaz .war p{
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18.86px;
+  text-transform: uppercase;
+}
+.zakaz .war img{
+  height: 33px;
+  width: auto;
+  margin-right: 5px;
+}
+
+
+.modal-wrapper {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,.7);
+  z-index: 105;
+  overflow-y: auto;
+}
+.popup {
+  background-color: #212121;
+  display: none;
+  position: absolute;
+  z-index: 101;
+  font-family: Roboto;
+}
+.popup .close-window{
+  float: right;
+  display: block;
+  margin: 12px;
+  cursor: pointer;
+}
+.popup .wrap{
+  width: 93%;
+  margin: 46px auto;
+}
+.log{
+  height: 35px;
+}
+
+
+.consult{
+  width: 348px;
+  border: 2px solid #000000;
+}
+.consult p{
+  color: #ff0066;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 11.55px;
+  text-transform: uppercase;
+}
+.consult input{
+  height: 35px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  /*line-height: 36.96px;*/
+  padding-left: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+.consult input::placeholder{
+  color: #000000;
+}
+.consult button{
+  width: 171px;
+  height: 43px;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 20.49px;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.consult button:hover{
+  background-color: #ff0066;
+}
+.consult .conslogo{
+  height: 38px;
+  margin-bottom: 15px;
+}
+.consult .consline{
+  margin-bottom: 15px;
+}
+.consult p{
+  margin-bottom: 20px;
+}
+
+
+.garanty{
+  width: 950px;
+  background-image: url('../img/garanty-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.garanty h3{
+  color: #ff0066;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 17.56px;
+  text-transform: uppercase;
+  font-family: Roboto;
+  text-align: center;
+}
+.garanty .line{
+  width: 182px;
+  height: 1px;
+  background-color: #ffffff;
+  margin: 9px auto 23px;
+}
+.garanty p{
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.25px;
+  text-transform: uppercase;
+  display: block;
+  border-left: 6px solid #ff0066;
+  padding-left: 7px;
+}
+.garanty .right-p{
+  text-align: right;
+  border-right: 6px solid #ff0066;
+  border-left: none;
+  padding-left: 0;
+  padding-right: 7px;
+}
+.garanty p b{
+  color: #ff0066;
+}
+.garanty h4{
+  color: #ffffff;
+  margin-top: 65px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.22px;
+  text-transform: uppercase;
+}
+.garanty .purpleline{
+  width: 23px;
+  height: 6px;
+  background-color: #ff0066;
+}
+
+
+.delivery{
+  width: 950px;
+}
+.delivery h3{
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 27.56px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.delivery .line{
+  width: 297px;
+  height: 1px;
+  display: block;
+  background-color: #ffffff;
+  margin: 18px auto 15px;
+}
+.delivery p{
+  color: #ffffff;
+  font-family: "Segoe UI - Semibold";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15.25px;
+  text-transform: uppercase;
+}
+.delivery p b{
+  color: #ff0066;
+}
+.delivery .log{
+  margin-top: 25px;
+}
+
+.spasibo{
+  width: 650px;
+}
+.spasibo .line{
+  height: 1px;
+  display: block;
+  width: 71px;
+  background-color: #ffffff;
+  margin: 13px 0;
+}
+.spasibo p{
+  color: #ffffff;
+  font-family: "Segoe UI - Semibold";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15.06px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.spasibo span{
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 11.55px;
+}
+.spasibo span img{
+  height: 25px;
+  margin-right: 10px;
+  width: auto;
+}
+
+
+.kopii{
+  width: 1100px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.kopii h3{
+  color: #ffffff;
+  font-family: "Segoe UI - Semibold";
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 5.05px;
+  margin: 20px auto;
+}
+.kopii .linee{
+  width: 117px;
+  height: 1px;
+  border: 2px solid #ffffff;
+  margin: 10px auto 20px;
+}
+.kopii .koreacopy{
+  width: 100%;
+  height: auto;
+}
+
+
+.zakaz{
+  width: 900px;
+}
+.zakaz .log{
+  height: 59px;
+}
+.zakaz .linee{
+  margin: 20px 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+.zakaz p{
+  color: #ffffff;
+  font-family: "Segoe UI - Semibold";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 14.54px;
+  margin-bottom: 0;
+}
+.zakaz input,select{
+  width: 100%;
+  height: 25px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: none;
+  padding-left: 10px;
+}
+.gb{
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 14.54px;
+  text-transform: uppercase;
+  width: 76px;
+  height: 25px;
+  border-radius: 6px;
+  border: 2px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.gb.active{
+  border: 2px solid #ff0067;
+  color: #ff0067;
+}
+.mb20{
+  margin-bottom: 10px;
+}
+.zakaz .circle{
+  width: 22px;
+  height: 22px;
+  border-radius: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.zakaz .circle.active{
+  border: 2px solid #ff0067;
+}
+.zakaz .warning{
+  height: 27px;
+}
+.zakaz .itogo{
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+.zakaz .itogo b{
+  font-style: italic;
+  font-weight: 400;
+}
+.zakaz button{
+  width: 169px;
+  height: 36px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Segoe UI";
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 26.31px;
+  border:none;
+  cursor: pointer;
+  margin: 10px auto;
+  display: block;
+}
+.zakaz button:hover{
+  background-color: #ff0067;
+}
+
+.popup1{
+  width: 1200px;
+  background-color: #fff;
+  padding: 0 15px 15px;
+  display: none;
+  margin: 50px 0;
+}
+.popup1 .nav a{
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 18px 23px;
+  display: block;
+}
+.popup1 .nav a:hover{
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+.popup1 .nav a.active{
+  background-color: #000;
+  color: #fff;
+}
+.popup1 .wrapp{
+  background-color: #000;
+  padding: 0 34px 20px;
+}
+.popup1 img{
+  width: 70%;
+  margin: 0 auto;
+}
+.splus img{
+  width: 90%;
+  padding-top: 30px;
+}
+.popup1 button{
+  border-radius: 10px;
+  border: 5px solid #ffffff;
+  background-color: inherit;
+  width: 385px;
+  height: 92px;
+  margin: 20px auto;
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-size: 57px;
+  font-weight: 400;
+  line-height: 4.74px;
+  display: block;
+  padding-bottom: 15px;
+}
+.popup1 button:hover{
+  color: #ff0067;
+  border-color: #ff0067;
+}
+.popup1 h3{
+  font-family: "Segoe UI - Light";
+  font-size: 36px;
+  font-weight: 200;
+  color: #ffffff;
+  margin: 40px 0 20px;
+}
+.popup1 p{
+  color: #ffffff;
+  font-family: "Segoe UI - Semibold";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.wrapp.airpods{
+  padding: 0 94px 20px;
+}
+.wrapp.airpods img{
+  width: 100%;
+  padding-top: 80px;
+}
+.wrapp.airpods button{
+  margin-top: 40px;
+}
+
+#subs-alert{
+  display: none;
+  position: fixed;
+  float: right;
+  z-index: 3000;
+  margin-left: 30px;
+}
+
+@media (max-width: 1100px) {
+  .popup {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  }
+  .consult p{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 600;
+  }
+  .consult input{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 600;
+  }
+  .consult button{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  }
+  .garanty h3{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  }
+  .garanty p{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  }
+  .popup1 .nav a{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  }
+}
+
+@media (max-width: 575.98px) {
+  #subs-alert{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .popup1{
+    width: 90%;
+    padding: 0 5px 15px;
+  }
+  .popup1 .nav a {
+    font-size: 8px;
+    padding: 18px 4px;
+  }
+  .popup1 .wrapp{
+    padding: 0 14px 20px;
+  }
+  .popup1 img{
+    width: 100%;
+  }
+  .popup1 button{
+    width: 100%;
+    height: 72px;
+    font-size: 37px;
+  }
+  .popup1 h3{
+    font-size: 26px;
+  }
+
+
+  .popup .wrap{
+    width: 85%;
+  }
+  .popup {
+    width: 95%;
+    margin-top: 80px;
+  }
+
+  .delivery p{
+    text-align: center;
+  }
+  .delivery .line{
+    width: 90%;
+  }
+
+  .garanty .purpleline{
+    display: none;
+  }
+
+  .spasibo span{
+    margin-top: 10px;
+  }
+
+  .kopii .koreacopy{
+    height: 150px;
+    width: auto;
+  }
+
+  .zakaz p{
+    margin-bottom: 10px;
+  }
+  .zakaz .warning{
+    height: 22px;
+  }
+  .zakaz .itogo{
+    margin-top: 10px;
+  }
+
+  .header-wrap{
+    width: 90%;
+  }
+  header .logo{
+    margin: 0 auto;
+  }
+  .header-list a{
+    font-size: 13px;
+  }
+  .header-info p{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .navigator{
+    padding: 20px 5px;
+  }
+  .navigator a{
+    font-size: 9px;
+    margin: 0 5px;
+  }
+
+  .iphone-img{
+    height: 130px;
+  }
+
+  .banner{
+    width: 90%;
+  }
+
+  .iphone-banner{
+    height: 200px;
+    background-size: 160%;
+  }
+
+  .iphone-xsmax .iphone-img, .sevenplus .iphone-img{
+    height: 75px;
+  }
+  .airpods-banner{
+    height: 100px;
+  }
+
+  .line{
+    margin: 35px 0 35px;
+  }
+
+  .subscribe p{
+    font-size: 16px;
+  }
+  .subscribe button{
+    width: 30%;
+    height: 35px;
+    font-size: 10px;
+  }
+  .subscribe input{
+    width: 70%;
+    margin-right: 10px;
+    height: 35px;
+  }
+
+  .sponsors img{
+    height: 25px;
+  }
+
+  .call-icon{
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .consult{
+    width: 65% !important;
+  }
+  .popup1{
+    width: 90%;
+    padding: 0 5px 15px;
+  }
+  .popup1 .nav a{
+    font-size: 15px;
+    padding: 18px 10px;
+  }
+  .popup1 .wrapp{
+    padding: 0 14px 20px;
+  }
+  .popup1 img{
+    width: 100%;
+  }
+  .popup1 button{
+    width: 80%;
+    height: 72px;
+    font-size: 37px;
+  }
+  .popup1 h3{
+    font-size: 26px;
+  }
+
+
+
+  .popup{
+    width: 95%;
+    margin-top: 100px !important;
+  }
+
+  .kopii .koreacopy{
+    height: 300px;
+    width: auto;
+  }
+
+  .delivery p{
+    text-align: center;
+  }
+
+  .spasibo span{
+    margin-top: 10px;
+  }
+
+  .zakaz{
+    margin-top: 80px;
+  }
+  .zakaz p{
+    margin-bottom: 10px;
+  }
+  .zakaz .warning {
+    height: 27px;
+    margin: 0 auto 20px;
+  }
+
+
+  .header-wrap{
+    width: 90%;
+  }
+  .call-icon{
+    margin-left: 0;
+  }
+  .banner{
+    width: 80%;
+  }
+  .iphone-xsmax .iphone-img, .sevenplus .iphone-img{
+    height: 130px;
+  }
+  .airpods-banner{
+    height: 180px;
+  }
+  .subscribe p{
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .consult{
+    width: 55% !important;
+  }
+
+
+  .popup1{
+    width: 90%;
+  }
+  .popup1 img{
+    width: 100%;
+  }
+
+  .popup1 .nav a{
+    font-size: 18px;
+    padding: 18px;
+  }
+
+
+  .popup{
+    width: 95%;
+    margin-top: 100px !important;
+  }
+
+  .kopii .koreacopy {
+    width: auto;
+    height: 350px;
+  }
+
+
+  .header-wrap{
+    width: 90%;
+  }
+  header .logo{
+    margin: 0 auto;
+  }
+  .banner{
+    width: 60%;
+  }
+  .iphone-xsmax .iphone-img, .sevenplus .iphone-img{
+    height: 180px;
+  }
+  .airpods-banner{
+    height: 200px;
+  }
+  .podpiska{
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .consult{
+    width: 55% !important;
+  }
+
+
+
+  .popup1{
+    width: 90%;
+  }
+  .popup1 img{
+    width: 100%;
+  }
+
+
+
+  .popup{
+    width: 95%;
+    margin-top: 200px !important;
+  }
+
+  .kopii .koreacopy {
+    width: auto;
+    height: 450px;
+  }
+
+  .header-wrap{
+    width: 90%;
+  }
+  .airpods-banner{
+    height: 250px;
+  }
+  .podpiska{
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 415px) {
+  .call-icon{
+    margin-left: 15px;
+  }
+}
